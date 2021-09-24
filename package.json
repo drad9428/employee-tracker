@@ -5,12 +5,14 @@
   "main": "index.js",
   "dependencies": {
     "console.table": "^0.10.0",
+    "dotenv": "^10.0.0",
     "inquirer": "^8.1.5",
     "mysql2": "^2.3.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/drad9428/employee-tracker/issues"
   },
-  "homepage": "https://github.com/drad9428/employee-tracker#readme"
+  "homepage": "https://github.com/drad9428/employee-tracker#readme",
+  "keywords": []
 }
